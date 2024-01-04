@@ -38,6 +38,7 @@ beneficiarse de varias mejoras:
 - Autenticación y autorización para creación y consulta de alertas
 - Uso de una db más apta que sqlite (de ser necesario), y utilizar compose u otro para que
 la db exista en otro contenedor independiente de la app.
+- Ya que la persistencia no era un requisito, la db se reinicia cada vez que se corre el servidor en un nuevo contenedor
 - Logueo de solicitudes/respuestas a API de Buda en caso de error
 - El cliente de Buda tiene una pequeña dependencia de Django que podría eliminarse y volverse un componente
 más modular si fuera útil
