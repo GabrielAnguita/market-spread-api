@@ -23,7 +23,7 @@ la aplicación estará corriendo en localhost:8000, para ver la documentación i
 - Hacer seguimiento de alerta: `GET localhost:8000/api/v1/spread-alerts/<alert-id>/`
 
 ## Tests
-Para ejecutar los tests es necesario correr el siguiente script, el script asume que la imagen tageó como market-spread-api:
+Para ejecutar los tests es necesario correr el siguiente script (el script asume que la imagen fue etiquetada como "market-spread-api"):
 `scripts/run_tests.sh`
 
 ## Documentación
