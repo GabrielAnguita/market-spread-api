@@ -1,5 +1,5 @@
 # Market Spread API
-Esta API expone endpoints para obtener los spreads de los mercados de Buda.
+Esta API expone endpoints para obtener los [spreads](https://blog.buda.com/spread/) de los mercados de Buda.
 
 ## Correr servidor de desarrollo
 Para buildear la imagen:
