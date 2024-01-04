@@ -2,8 +2,6 @@
 Esta API expone endpoints para obtener los spreads de los mercados de Buda.
 
 ## Correr servidor de desarrollo
-Es necesario contar con poetry y python mayor a 3.10, es más fácil
-
 Para buildear la imagen:
 
 `docker build -t market-spread-api .`
